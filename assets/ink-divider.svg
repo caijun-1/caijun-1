@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 24" width="100%" height="24" fill="none">
+  <defs>
+    <linearGradient id="inkBase" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#141518" stop-opacity="0"/>
+      <stop offset="18%" stop-color="#141518" stop-opacity="0.14"/>
+      <stop offset="50%" stop-color="#141518" stop-opacity="0.22"/>
+      <stop offset="82%" stop-color="#141518" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#141518" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="bladeGlint" x1="0" y1="0" x2="160" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#c8322c" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#c8322c" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#c8322c" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .glint {
+      animation: sweep 5.5s cubic-bezier(0.22, 1, 0.36, 1) infinite;
+    }
+    @keyframes sweep {
+      0%   { transform: translateX(-180px); opacity: 0; }
+      15%  { opacity: 1; }
+      70%  { opacity: 1; }
+      100% { transform: translateX(1240px); opacity: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .glint { animation: none; opacity: 0; }
+    }
+  </style>
+  <line x1="0" y1="12" x2="1200" y2="12" stroke="url(#inkBase)" stroke-width="1"/>
+  <rect class="glint" x="0" y="11" width="160" height="2" rx="1" fill="url(#bladeGlint)"/>
+  <rect x="597" y="9" width="6" height="6" transform="rotate(45 600 12)" fill="#c8322c" fill-opacity="0.8"/>
+</svg>
