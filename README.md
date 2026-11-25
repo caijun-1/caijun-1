@@ -28,11 +28,11 @@
 
 ### Featured · FrameForge
 
-Windows 上克制而完整的 FPS 增效与帧率监测工具——纯原生 GDI+ 绘制宣纸白昼与深色双主题，无需第三方重型运行库，直接由系统自带 `csc.exe` 编译。
+Windows 上克制而完整的 FPS 增效与帧率监测工具——单文件约 7 MB，默认零 DLL 注入，支持事务级 100% 崩溃自动回滚与现代毛玻璃 HUD。
 
 <p align="center">
   <a href="https://github.com/caijun-1/frameforge">
-    <img src="https://raw.githubusercontent.com/caijun-1/frameforge/main/docs/screenshots/v1.5.0/boost.png" width="88%" alt="FrameForge Paper Ink Day UI" />
+    <img src="https://raw.githubusercontent.com/caijun-1/frameforge/main/docs/social-preview.zh-CN.png" width="90%" alt="FrameForge v1.6.5" />
   </a>
 </p>
 
