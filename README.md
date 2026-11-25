@@ -1,27 +1,61 @@
-### Hi, I'm caijun-1
+<p align="center">
+  <img src="assets/header.png" width="100%" alt="caijun" />
+</p>
 
-Windows native utilities, performance tooling, and clean desktop interfaces.  
-Personal site & notes: [cjcode.xyz](https://cjcode.xyz)
+<p align="center">
+  <a href="https://cjcode.xyz">Blog · cjcode.xyz</a> &nbsp;·&nbsp;
+  <a href="https://caijun-1.github.io/frameforge/">FrameForge Site</a> &nbsp;·&nbsp;
+  <a href="https://github.com/caijun-1?tab=repositories">Repositories</a> &nbsp;·&nbsp;
+  <a href="https://github.com/caijun-1/frameforge/discussions">Discussions</a>
+</p>
 
 ---
 
-#### Featured Project: [FrameForge](https://github.com/caijun-1/frameforge)
+### Selected Projects
 
-**Lightweight (~7 MB) portable Windows FPS toolkit** — one-click reversible system boost, PresentMon / RTSS modern translucent HUD overlay, non-invasive hardware screen filters, and automatic post-match FPS reports.
+| Project | Stack | Description |
+| :--- | :--- | :--- |
+| **[FrameForge](https://github.com/caijun-1/frameforge)** | C# / .NET 4.8 / Win32 | 约 7 MB 单文件 Windows FPS 增效工具：一键事务级可回滚加速、PresentMon / RTSS 现代 HUD、硬件画面滤镜与赛后战绩，默认零 DLL 注入 |
+| **[qingpan](https://github.com/caijun-1/qingpan)** | Python / Windows | 清盘 · CleanDisk：极简单文件 Windows 磁盘清理工具，不联网、不上传数据，清理规则透明 |
+| **[memsweep](https://github.com/caijun-1/memsweep)** | C# / Win32 | 101 KB 轻量 Windows 内存整理小工具，单文件即开即用，常驻开销极低 |
+| **[video-to-ansi](https://github.com/caijun-1/video-to-ansi)** | Python | 将任意视频转换为终端字符动画（ASCII / ANSI）的轻量工具 |
 
-- **Single-File Portable**: Pure C# (.NET Framework 4.8 + native GDI+), compiles directly via Windows in-box `csc.exe`.
-- **Zero DLL Injection by Default**: ETW frame-time capture (Intel PresentMon) + layered HUD window, with optional RTSS sync for exclusive fullscreen.
-- **100% Atomic Rollback**: HMAC-signed SCTL v2 write-ahead journal and out-of-process watchdog restore system tweaks even after crashes.
+---
+
+### Featured · FrameForge
+
+Windows 上克制而完整的 FPS 增效与帧率监测工具——纯原生 GDI+ 绘制宣纸白昼与深色双主题，无需第三方重型运行库，直接由系统自带 `csc.exe` 编译。
 
 <p align="center">
   <a href="https://github.com/caijun-1/frameforge">
-    <img src="https://raw.githubusercontent.com/caijun-1/frameforge/main/docs/social-preview.png" width="760" alt="FrameForge">
+    <img src="https://raw.githubusercontent.com/caijun-1/frameforge/main/docs/screenshots/v1.5.0/boost.png" width="88%" alt="FrameForge Paper Ink Day UI" />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://caijun-1.github.io/frameforge/">Project Site</a> ·
-  <a href="https://cjcode.xyz">Blog (cjcode.xyz)</a> ·
-  <a href="https://github.com/caijun-1/frameforge/releases/latest">Download Latest</a> ·
-  <a href="https://github.com/caijun-1/frameforge/discussions">Discussions</a>
+  <a href="https://github.com/caijun-1/frameforge/releases/latest">Download Latest (v1.6.5)</a> &nbsp;·&nbsp;
+  <a href="https://caijun-1.github.io/frameforge/">Interactive HUD Preview</a> &nbsp;·&nbsp;
+  <a href="https://github.com/caijun-1/frameforge">Source Code (MIT)</a>
+</p>
+
+---
+
+### Stack
+
+<p>
+  <img src="https://img.shields.io/badge/C%23-F6F4EF?style=flat&logo=sharp&logoColor=141518" alt="C#" />
+  <img src="https://img.shields.io/badge/.NET%20Framework%204.8-F6F4EF?style=flat&logo=dotnet&logoColor=141518" alt=".NET Framework 4.8" />
+  <img src="https://img.shields.io/badge/Win32%20%2F%20ETW-F6F4EF?style=flat&logo=windows&logoColor=141518" alt="Win32" />
+  <img src="https://img.shields.io/badge/TypeScript-F6F4EF?style=flat&logo=typescript&logoColor=141518" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Next.js-F6F4EF?style=flat&logo=nextdotjs&logoColor=141518" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Python-F6F4EF?style=flat&logo=python&logoColor=141518" alt="Python" />
+</p>
+
+---
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/caijun-1/caijun-1/output/github-snake-dark.svg" />
+    <img src="https://raw.githubusercontent.com/caijun-1/caijun-1/output/github-snake.svg" alt="Contribution activity" />
+  </picture>
 </p>
