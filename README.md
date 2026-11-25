@@ -9,7 +9,9 @@
   <a href="https://github.com/caijun-1/frameforge/discussions">Discussions</a>
 </p>
 
----
+<p align="center">
+  <img src="assets/ink-divider.svg" width="100%" alt="" />
+</p>
 
 ### Selected Projects
 
@@ -20,7 +22,9 @@
 | **[memsweep](https://github.com/caijun-1/memsweep)** | C# / Win32 | 101 KB 轻量 Windows 内存整理小工具，单文件即开即用，常驻开销极低 |
 | **[video-to-ansi](https://github.com/caijun-1/video-to-ansi)** | Python | 将任意视频转换为终端字符动画（ASCII / ANSI）的轻量工具 |
 
----
+<p align="center">
+  <img src="assets/ink-divider.svg" width="100%" alt="" />
+</p>
 
 ### Featured · FrameForge
 
@@ -38,20 +42,22 @@ Windows 上克制而完整的 FPS 增效与帧率监测工具——纯原生 GDI
   <a href="https://github.com/caijun-1/frameforge">Source Code (MIT)</a>
 </p>
 
----
+<p align="center">
+  <img src="assets/ink-divider.svg" width="100%" alt="" />
+</p>
 
 ### Stack
 
-<p>
-  <img src="https://img.shields.io/badge/C%23-F6F4EF?style=flat&logo=sharp&logoColor=141518" alt="C#" />
-  <img src="https://img.shields.io/badge/.NET%20Framework%204.8-F6F4EF?style=flat&logo=dotnet&logoColor=141518" alt=".NET Framework 4.8" />
-  <img src="https://img.shields.io/badge/Win32%20%2F%20ETW-F6F4EF?style=flat&logo=windows&logoColor=141518" alt="Win32" />
-  <img src="https://img.shields.io/badge/TypeScript-F6F4EF?style=flat&logo=typescript&logoColor=141518" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Next.js-F6F4EF?style=flat&logo=nextdotjs&logoColor=141518" alt="Next.js" />
-  <img src="https://img.shields.io/badge/Python-F6F4EF?style=flat&logo=python&logoColor=141518" alt="Python" />
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=cs,dotnet,ts,nextjs,react,tailwind,py,powershell,git,github&theme=dark&perline=10" />
+    <img src="https://skillicons.dev/icons?i=cs,dotnet,ts,nextjs,react,tailwind,py,powershell,git,github&theme=light&perline=10" alt="Tech Stack" />
+  </picture>
 </p>
 
----
+<p align="center">
+  <img src="assets/ink-divider.svg" width="100%" alt="" />
+</p>
 
 <p align="center">
   <picture>
