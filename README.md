@@ -61,7 +61,7 @@ Windows 上克制而完整的 FPS 增效与帧率监测工具——单文件约 
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/caijun-1/caijun-1/output/github-snake-dark.svg" />
-    <img src="https://raw.githubusercontent.com/caijun-1/caijun-1/output/github-snake.svg" alt="Contribution activity" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/caijun-1/caijun-1/output/github-snake-dark.svg?v=2" />
+    <img src="https://raw.githubusercontent.com/caijun-1/caijun-1/output/github-snake.svg?v=2" alt="Contribution activity" />
   </picture>
 </p>
